@@ -1,9 +1,195 @@
 /**
- * @name Better UI
+ * @name Better UI Debug
  * @author Rashnain
  * @version 1.0.0
  * @description Makes majority of the user interface to use the whole screen instead of being limited to the middle, also removes Nitro tab, some other changes are included. Modifications for user profile, window bar, server invite.
  * @source https://github.com/Rashnain/BetterUI
 */
 
-@import url("https://rashnain.github.io/BetterUI/src/BetterUI.css")
+
+/* Variables */
+:root {
+	/* Défini la hauteur de la barre de serveur (avec HSL) et la taille des boutons */
+	--server-container: calc(var(--server-size, 22px) + 15px) !important;
+	/* (Avec HSL) Marge au dessus et en dessous des icones des serveurs */
+	--server-margin: calc(var(--server-spacing) - calc(var(--server-spacing) - 5px));
+	/* Adate la marge de la barre d'outils en fonction de si il y a HSL ou non */
+	--toolbar-margin: calc(3*var(--server-container) - 8px - var(--toolbar-margin-hsl, 0px));
+	--toolbar-margin-hsl: calc(3*calc(var(--server-size) + 15px) - 8px);
+}
+
+
+/* Liste des messages privés */
+	/* Retire l'onglet Nitro, ainsi que le bouton de découverte de serveur */
+	#private-channels-2, .tutorialContainer-30WoTp + .listItem-GuPuDH {
+		display: none;
+	}
+	/* Réduit l'espacement au-dessus de "MESSAGES PRIVÉS" */
+	.privateChannelsHeaderContainer-3NB1K1 {
+		padding-top: 4px;
+		height: 22px;
+	}
+	/* Ne modifie pas la couleur au survol de "MESSAGES PRIVÉS" */
+	.privateChannelsHeaderContainer-3NB1K1:hover {
+		color: rgb(142, 146, 151);
+	}
+
+
+/* Barre de navigation des paramètres */
+	/* Retire l'espace vide de gauche */
+	.sidebarRegion-VFTUkN {flex: 0}
+	/* Rend la barre de navigation des paramètres plus compacte */
+	.sidebar-CFHs9e {padding: 10px 5px 5px 5px}
+	/* Réduit de peu la hauteur d'un onglet */
+	.item-PXvHYJ.themed-OHr7kt {padding: 5px 10px}
+	/* Réduit l'espace autour des séparateurs d'onglets */
+	.separator-gCa7yv {margin: 2px 2px 4px 2px !important}
+	/* Parité entre l'header de BD et ceux de Discord */
+	.header-2RyJ0Y {padding: 6px 10px !important}
+
+
+/* Permet aux pages de s'afficher sur l'ensemble de l'écran */
+	/* Règle générale */
+	.contentColumn-2hrIYH, .customScroller-26gWhv > div, .customColumn-Rb6toI {
+		padding: 20px;
+		max-width: 95%;
+	}
+	/* Pour certaines pages des paramètres d'un serveur, supprime l'espace au dessus du titre */
+	.content-3YMskv div[style*="height: 60px;"] {height: 0 !important}
+	/* Pareil pour l'onglet Logs du serveur */
+	.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.customHeader-f9DEJ_ {
+		padding: 0;
+	}
+	/* Corrige les contours pour les onglet Rôles, Logs de serveur, Membres, Invitations et Bannissements */
+	.content-3YMskv, .content-FNlD6K {margin: 0 !important}
+	/* Corrections supplémentaires pour les rôles */
+		/* Retire l'espace vide au dessus du bouton retour */
+		.titleContainer-2CXtJo {padding-top: 0}
+		/* Partie de droite qui prend tout l'écran */
+		.contentWidth-xLB44s {max-width: 95%}
+		/* Retire l'espace vide au dessus de la partie de droite */
+		.header-2mZ9Ov {padding-top: 20px}
+		/* Ajuste la partie de droite pour s'afficher correctement */
+		.contentContainer-14yMzC, .headerContainer-1X2CD8 {padding-left: 20px !important}
+
+
+/* Messages */
+	/* Retire les boutons de la zone de message */
+	.buttons-3JBrkn {display: none}
+	/* Réduit l'espace en dessous de la zone d'envoi de message et du panneau de suivi de salon d'annonces */
+	.channelTextArea-rNsIhG.channelTextArea-2VhZ6z, .wrapper-39oAo3 {margin: 0}
+	/* Met un espace uniforme autour de 10 pixels */
+	.form-2fGMdU {padding: 10px}
+	/* Corrige la barre qui indique qu'on lit d'anciens messages */
+	.jumpToPresentBar-G1R9s6.barBase-1c2Rfb {padding: 0}
+	/* Réduit les pseudos de ceux qui sont en train d'écrire */
+	.typing-2GQL18.base-gE7OpD {height: 10px}
+	/* Réduit l'espace entre le dernier message et la boîte d'envoi de message */
+	.scrollerSpacer-avRLaA {height: 5px}
+	/* Réduit la place autour des dates qui séparrent les messages */
+	.divider-3_HH5L.hasContent-1_DUdQ.divider-JfaTT5.hasContent-1cNJDh {margin: 10px}
+
+
+/* Modification de message */
+	/* Retire l'astuce en dessous de la boîte de modification */
+	.operations-36ENbA {display: none}
+	/* Enlève la marge au dessus de l'éditeur de message */
+	.channelTextArea-3bF57p.channelTextArea-2VhZ6z {margin: 0}
+	/* Retire l'espace autour du texte du message */
+	.markup-2BOw-j.slateTextArea-1Mkdgw.fontSize20Padding-18f-TO.textAreaWithoutAttachmentButton-qiaiTB {padding: 0px}
+
+
+/* Modifications du grand profil */
+	/* Changement de la taille */
+	.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
+		width: 875px;
+		min-height: 700px;
+	}
+	/* Bannière de couleur qui prend toute la largeur */
+	.profileBanner-33-uE1 {width: 100%}
+	/* Banière Nitro centrée */
+	.profileBannerPremium-35utuo {margin-left: 137.5px}
+	/* Adaptation de la partie inférieure */
+	.body-r6_QPy, .listScroller-3GmIYj {height: 404px}
+
+
+/* Retire la barre supérieur et le logo Discord (inspiré de Windows titlebar de Gibbu) */
+	/* Retire le logo */
+	.wordmarkWindows-1v0lYD {display: none}
+	/* Retire la barre supérieure de la fenêtre */
+	.typeWindows-1za-n7 {
+		position: absolute;
+		width: 100%;
+		height: 10px;
+		margin: 0px;
+	}
+	/* Taille des boutons */
+	.winButton-iRh8-Z {
+		top: 0px;
+		height: var(--server-container);
+		width: var(--server-container);
+	}
+	/* Adapte le bouton de fermeture des paramètres */
+	.toolsContainer-1edPuj {padding-top: calc(10px + var(--server-container))}
+	/* Décale la barre d'outils du côté droit pour laisser la place aux boutons de la fenêtre (s'auto désactive avec HSL) */
+		.toolbar-1t6TWx {margin-right: var(--toolbar-margin)}
+	/* Pour Horizontal Server List */
+		/* Réduit la marge en dessous des serveurs */
+		.guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
+			margin: var(--server-spacing, 8px) var(--server-margin, 0) !important;
+		}
+		/* Fixe l'arrière plan des dossiers de serveurs */
+		.expandedFolderBackground-1cujaW {
+			/*left: var(--fix-folder, 12px) !important;*/
+			left: calc(50% - 2.5px) !important;
+			/*left: calc(50%) !important;*/
+		}
+
+
+/* Améliore RadialStatus */
+	/* Met le même pourcentage de courbure aux avatars de la liste de messages et dans les salons vocaux */
+	.avatar-1BDn8e, .avatar-3tNQiO {border-radius: var(--rs-avatar-shape, 50%)}
+
+
+/* Améliore l'écran d'invitation à rejoindre un serveur */
+	/* Augmente la longeur du popup */
+	.container-2Yth53 {
+		max-width: 1190px;
+	}
+	/* Change la longeur de l'image */
+	.inviteSplash-40aHus {
+		width: 790px;
+	}
+
+
+/* Autre */
+	/* Dans la liste de membres latérale, met les séparateurs de rôles au centre */
+	.membersGroup-v9BXpm {padding: 12px}
+	/* Réduit la hauteur de la barre d'outils (celle en permanence en haut de l'écran) */
+	.container-1r6BKw, .header-2V-4Sw, .searchBar-6Kv8R2 {height: 37px}
+	/* Réduit l'espace entre les cathégories de serveurs */
+	.containerDefault-3tr_sE {padding-top: 15px}
+	/* Réduit la place qu'utilise le bouton de fermeture des paramètres */
+	.toolsContainer-1edPuj {margin-right: 15px !important}
+	/* Image de l'onglet Nitro au milieu */
+	.hero-EvfTTA.desaturate-qhyunI {margin-left: calc(50% - 330px)}
+	/* Centre "Inclut également" de l'onglet Nitro */
+	.featuresHeader-4YwLcc {
+		text-align: center;
+		margin-top: 16px;
+	}
+	/* Corrige la vidéo de la HypeSquad */
+	.outer-s4sY2_.video-34IsHk.videoWrapper-3YdgHH {
+		padding: 0 !important;
+		max-width: 640px;
+		max-height: 360px;
+		min-width: 640px;
+		min-height: 360px;
+	}
+	/* Corrige la page de l'overlay en jeu */
+	.notificationSettings-1NQKPR {max-width: 35%}
+	/* Taille de la barre de recherche fixe */
+	.searchBar-3dMhjb {width: 240px}
+	/* Sur les popup des Webhook : les marques comme tel et supprime la barre */
+	.avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a .botText-1526X_:before {content: 'WEBHOOK '}
+	.avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a + div {display: none}
