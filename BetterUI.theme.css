@@ -1,7 +1,7 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.0.0
+ * @version 1.0.1
  * @description Makes majority of the user interface to use the whole screen instead of being limited to the middle, also removes Nitro tab, some other changes are included. Modifications for user profile, window bar, server invite.
  * @source https://github.com/Rashnain/BetterUI
 */
@@ -20,8 +20,8 @@
 
 
 /* Liste des messages privés */
-	/* Retire l'onglet Nitro, ainsi que le bouton de découverte de serveur */
-	#private-channels-2, .tutorialContainer-30WoTp + .listItem-GuPuDH {
+	/* Retire l'onglet Nitro et Stage Discovery, ainsi que le bouton de découverte de serveur */
+	.channel-2QD9_O[href="/store"], .channel-2QD9_O[href="/discovery"], .tutorialContainer-30WoTp + .listItem-GuPuDH {
 		display: none;
 	}
 	/* Réduit l'espacement au-dessus de "MESSAGES PRIVÉS" */
