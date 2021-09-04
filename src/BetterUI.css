@@ -1,10 +1,3 @@
-/**
- * @author Rashnain
- * @version 1.0.1
- * @description A theme that takes advantage of your entire screen, removes Stage Discovery and Nitro tabs, with more improvements for the user experience included.
- * @source https://github.com/Rashnain/BetterUI
-*/
-
 :root {
 	--server-container: calc(var(--server-size, 22px) + 15px) !important;
 	--server-margin: calc(var(--server-spacing) - calc(var(--server-spacing) - 5px));
