@@ -1,8 +1,8 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.0.1
- * @description Makes majority of the user interface to use the whole screen instead of being limited to the middle, also removes Nitro tab, some other changes are included. Modifications for user profile, window bar, server invite.
+ * @version 1.0.2
+ * @description A theme that takes advantage of your entire screen, removes Stage Discovery and Nitro tabs, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
 
@@ -193,3 +193,5 @@
 	/* Sur les popup des Webhook : les marques comme tel et supprime la barre */
 	.avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a .botText-1526X_:before {content: 'WEBHOOK '}
 	.avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a + div {display: none}
+	/* Retire l'étiquette 'Nouveau' de la liste des serveurs */
+	.unreadMentionsIndicatorBottom-2mDYbI {display: none;}
