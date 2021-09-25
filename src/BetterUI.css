@@ -1,8 +1,10 @@
 :root {
 	--server-container: calc(var(--server-size, 22px) + 15px) !important;
 	--server-margin: calc(var(--server-spacing) - calc(var(--server-spacing) - 5px));
-	--toolbar-margin: calc(3*var(--server-container) - 8px - var(--toolbar-margin-hsl, 0px));
-	--toolbar-margin-hsl: calc(3*calc(var(--server-size) + 15px) - 8px);
+	--toolbar-margin: calc(3 * var(--server-container) - 8px - var(--toolbar-margin-hsl, 0px));
+	--toolbar-margin-hsl: calc(3 * calc(var(--server-size) + 15px) - 8px);
+	--fix-folder: calc(12px + var(--fix-folder-hsl, 0px));
+	--fix-folder-hsl: calc(var(--server-size) / 2 - 7px);
 }
 
 
@@ -80,9 +82,7 @@
 .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
 	margin: var(--server-spacing, 8px) var(--server-margin, 0) !important;
 }
-.expandedFolderBackground-1cujaW {
-	left: calc(50% - 2.5px) !important;
-}
+.expandedFolderBackground-1cujaW {left: var(--fix-folder) !important}
 
 
 .avatar-1BDn8e, .avatar-3tNQiO {border-radius: var(--rs-avatar-shape, 50%)}
@@ -116,4 +116,4 @@
 .searchBar-3dMhjb {width: 240px}
 .avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a .botText-1526X_:before {content: 'WEBHOOK '}
 .avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a + div {display: none}
-.unreadMentionsIndicatorBottom-2mDYbI {display: none;}
+.unreadMentionsIndicatorBottom-2mDYbI {display: none}
