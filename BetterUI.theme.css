@@ -1,7 +1,7 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.0.2
+ * @version 1.1.0
  * @description A theme that takes advantage of your entire screen, removes Stage Discovery and Nitro tabs, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
@@ -13,9 +13,12 @@
 	--server-container: calc(var(--server-size, 22px) + 15px) !important;
 	/* (Avec HSL) Marge au dessus et en dessous des icones des serveurs */
 	--server-margin: calc(var(--server-spacing) - calc(var(--server-spacing) - 5px));
-	/* Adate la marge de la barre d'outils en fonction de si il y a HSL ou non */
-	--toolbar-margin: calc(3*var(--server-container) - 8px - var(--toolbar-margin-hsl, 0px));
-	--toolbar-margin-hsl: calc(3*calc(var(--server-size) + 15px) - 8px);
+	/* Adapte la marge de la barre d'outils en fonction de la présence d'HLS */
+	--toolbar-margin: calc(3 * var(--server-container) - 8px - var(--toolbar-margin-hsl, 0px));
+	--toolbar-margin-hsl: calc(3 * calc(var(--server-size) + 15px) - 8px);
+	/* Adapte la position de l'arrière plan de dossier de serveurs en fonction de la présence d'HLS */
+	--fix-folder: calc(12px + var(--fix-folder-hsl, 0px));
+	--fix-folder-hsl: calc(var(--server-size) / 2 - 7px);
 }
 
 
@@ -139,11 +142,7 @@
 			margin: var(--server-spacing, 8px) var(--server-margin, 0) !important;
 		}
 		/* Fixe l'arrière plan des dossiers de serveurs */
-		.expandedFolderBackground-1cujaW {
-			/*left: var(--fix-folder, 12px) !important;*/
-			left: calc(50% - 2.5px) !important;
-			/*left: calc(50%) !important;*/
-		}
+		.expandedFolderBackground-1cujaW {left: var(--fix-folder) !important}
 
 
 /* Améliore RadialStatus */
@@ -152,11 +151,11 @@
 
 
 /* Améliore l'écran d'invitation à rejoindre un serveur */
-	/* Augmente la longeur du popup */
+	/* Augmente la longueur du popup */
 	.container-2Yth53 {
 		max-width: 1190px;
 	}
-	/* Change la longeur de l'image */
+	/* Change la longueur de l'image */
 	.inviteSplash-40aHus {
 		width: 790px;
 	}
@@ -194,4 +193,4 @@
 	.avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a .botText-1526X_:before {content: 'WEBHOOK '}
 	.avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a + div {display: none}
 	/* Retire l'étiquette 'Nouveau' de la liste des serveurs */
-	.unreadMentionsIndicatorBottom-2mDYbI {display: none;}
+	.unreadMentionsIndicatorBottom-2mDYbI {display: none}
