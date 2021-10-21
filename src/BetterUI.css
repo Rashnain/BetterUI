@@ -8,7 +8,7 @@
 }
 
 
-.channel-2QD9_O[href="/store"], .channel-2QD9_O[href="/discovery"], .tutorialContainer-30WoTp + .listItem-GuPuDH {
+.channel-2QD9_O[href="/store"], .channel-2QD9_O[href="/discovery"] {
 	display: none;
 }
 .privateChannelsHeaderContainer-3NB1K1 {
@@ -117,3 +117,4 @@
 .avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a .botText-1526X_:before {content: 'WEBHOOK '}
 .avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a + div {display: none}
 .unreadMentionsIndicatorBottom-2mDYbI {display: none}
+.tutorialContainer-32VdNI + .listItem-1hlISG {display: none}
