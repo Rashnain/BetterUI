@@ -1,7 +1,7 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.1.0
+ * @version 1.1.1
  * @description A theme that takes advantage of your entire screen, removes Stage Discovery and Nitro tabs, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
@@ -23,8 +23,8 @@
 
 
 /* Liste des messages privés */
-	/* Retire l'onglet Nitro et Stage Discovery, ainsi que le bouton de découverte de serveur */
-	.channel-2QD9_O[href="/store"], .channel-2QD9_O[href="/discovery"], .tutorialContainer-30WoTp + .listItem-GuPuDH {
+	/* Retire l'onglet Nitro et Stage Discovery */
+	.channel-2QD9_O[href="/store"], .channel-2QD9_O[href="/discovery"] {
 		display: none;
 	}
 	/* Réduit l'espacement au-dessus de "MESSAGES PRIVÉS" */
@@ -194,3 +194,5 @@
 	.avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a + div {display: none}
 	/* Retire l'étiquette 'Nouveau' de la liste des serveurs */
 	.unreadMentionsIndicatorBottom-2mDYbI {display: none}
+	/* Retire le bouton de découverte de serveurs publics */
+	.tutorialContainer-32VdNI + .listItem-1hlISG {display: none}
