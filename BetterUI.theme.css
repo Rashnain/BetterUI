@@ -1,7 +1,7 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.1.1
+ * @version 1.1.2
  * @description A theme that takes advantage of your entire screen, removes Stage Discovery and Nitro tabs, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
@@ -142,7 +142,7 @@
 			margin: var(--server-spacing, 8px) var(--server-margin, 0) !important;
 		}
 		/* Fixe l'arrière plan des dossiers de serveurs */
-		.expandedFolderBackground-1cujaW {left: var(--fix-folder) !important}
+		.expandedFolderBackground-3ZDF05 {left: var(--fix-folder) !important}
 
 
 /* Améliore RadialStatus */
