@@ -195,4 +195,4 @@
 	/* Retire l'étiquette 'Nouveau' de la liste des serveurs */
 	.unreadMentionsIndicatorBottom-2mDYbI {display: none}
 	/* Retire le bouton de découverte de serveurs publics */
-	.tutorialContainer-32VdNI + .listItem-1hlISG {display: none}
+	.tutorialContainer-11ICd5 + .listItem-2Ig28I + div + .listItem-2Ig28I + .listItem-2Ig28I {display: none}
