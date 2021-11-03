@@ -82,7 +82,7 @@
 .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
 	margin: var(--server-spacing, 8px) var(--server-margin, 0) !important;
 }
-.expandedFolderBackground-1cujaW {left: var(--fix-folder) !important}
+.expandedFolderBackground-3ZDF05 {left: var(--fix-folder) !important}
 
 
 .avatar-1BDn8e, .avatar-3tNQiO {border-radius: var(--rs-avatar-shape, 50%)}
