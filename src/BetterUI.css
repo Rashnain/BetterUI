@@ -53,7 +53,7 @@
 
 .operations-36ENbA {display: none}
 .channelTextArea-3bF57p.channelTextArea-2VhZ6z {margin: 0}
-.markup-2BOw-j.slateTextArea-1Mkdgw.fontSize20Padding-18f-TO.textAreaWithoutAttachmentButton-qiaiTB {padding: 0px}
+.markup-2BOw-j.slateTextArea-1Mkdgw.fontSize20Padding-18f-TO.textAreaWithoutAttachmentButton-qiaiTB {padding: 0}
 
 
 .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
@@ -70,10 +70,10 @@
 	position: absolute;
 	width: 100%;
 	height: 10px;
-	margin: 0px;
+	margin: 0;
 }
 .winButton-iRh8-Z {
-	top: 0px;
+	top: 0;
 	height: var(--server-container);
 	width: var(--server-container);
 }
@@ -118,3 +118,6 @@
 .avatarWrapperNonUserBot-3fzpUZ + .headerTop-3vNv-a + div {display: none}
 .unreadMentionsIndicatorBottom-2mDYbI {display: none}
 .tutorialContainer-3alCZm + .listItem-2Ig28I {display: none}
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih {
+	margin-bottom: calc(3 * calc(var(--server-size) + 15px));
+}
