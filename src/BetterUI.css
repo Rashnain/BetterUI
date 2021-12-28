@@ -113,7 +113,7 @@
 .membersGroup-v9BXpm {padding: 12px}
 .container-1r6BKw, .header-2V-4Sw, .searchBar-6Kv8R2 {height: 37px}
 .containerDefault-3tr_sE {padding-top: 10px}
-.hasBanner-2SrLR3 + .positionedContainer-3LNR6L + .scrollerBase-289Jih > .content-3YMskv > div[style="height: 84px;"] {
+.hasBanner-2SrLR3 + div + .positionedContainer-3LNR6L + .scrollerBase-289Jih > .content-3YMskv > div[style="height: 84px;"] {
 	height: 98px !important;
 }
 .toolsContainer-1edPuj {margin-right: 15px !important}
