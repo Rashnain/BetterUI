@@ -1,7 +1,7 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.1.9
+ * @version 1.1.10
  * @description A theme that takes advantage of your entire screen, removes Stage Discovery and Nitro tabs, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
@@ -188,8 +188,8 @@
 	.container-1r6BKw, .header-2V-4Sw, .searchBar-6Kv8R2 {height: 37px}
 	/* Réduit l'espace entre les cathégories de serveurs */
 	.containerDefault-3tr_sE {padding-top: 10px}
-	/* Fixe l'espace entre la bannière de serveur et les cathégories/salons */
-	.hasBanner-2SrLR3 + .positionedContainer-3LNR6L + .scrollerBase-289Jih > .content-3YMskv > div[style="height: 84px;"] {
+	/* Fixe l'espace entre la bannière de serveur et la première cathégorie/salon */
+	.hasBanner-2SrLR3 + div + .positionedContainer-3LNR6L + .scrollerBase-289Jih > .content-3YMskv > div[style="height: 84px;"] {
 		height: 98px !important;
 	}
 	/* Réduit la place qu'utilise le bouton de fermeture des paramètres */
