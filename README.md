@@ -1,5 +1,5 @@
 # BetterUI
-A theme that takes advantage of your entire screen and compacts some things, with more improvements for the user experience included.
+A theme that takes advantage of your entire screen and compact some things, with more improvements for the user experience included.
 
 ---
 
@@ -13,9 +13,9 @@ Download the [theme file](https://github.com/Rashnain/BetterUI/raw/main/BetterUI
 
 ## Features
 
-The reason I created this theme was for me to personalize my Discord experience, so it includes this features :
+The reason I created this theme was for me to personalize my Discord experience, it includes this features :
 
-* Takes advantages of the whole screen for things like parameters
+* Takes advantage of the whole screen for things like parameters
 * Removes the upper bar where is located the Discord logo and integrates the buttons aside the help button
 * Increase the size of user profiles
 * Background images of server's invite aren't cropped
@@ -27,5 +27,5 @@ Some are configurable in the theme file.
 
 ### Other themes
 Since I created this theme for my personnal use, I added complementary features for other themes :
-* [RadialStatus](https://github.com/DiscordStyles/RadialStatus/) : it uses the avatar shape parameter in avatar messages
-* [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList) : it adapts the server list to go along with the buttons of the window
+* [RadialStatus](https://github.com/DiscordStyles/RadialStatus/) use the avatar shape parameter in avatar messages
+* [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList) adapt the server list to go along with the buttons of the window
