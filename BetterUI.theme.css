@@ -1,8 +1,8 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.1.11
- * @description A theme that takes advantage of your entire screen, removes Stage Discovery and Nitro tabs, with more improvements for the user experience included.
+ * @version 1.1.12
+ * @description A theme that takes advantage of your entire screen and compact some things, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
 
@@ -19,13 +19,21 @@
 	/* Adapte la position de l'arrière plan de dossier de serveurs en fonction de la présence d'HLS */
 	--fix-folder: calc(12px + var(--fix-folder-hsl, 0px));
 	--fix-folder-hsl: calc(var(--server-size) / 2 - 7px);
+	/* Visibilité de l'onglet Amis (visible par défaut) */
+	--bui-friends-tab: none;
+	/* Visibilité des boutons à droite de la boîte de message */
+	--bui-message-buttons: none;
 }
 
 
 /* Liste des messages privés */
-	/* Retire l'onglet Amis et Nitro */
-	.channel-1Shao0[href="/channels/@me"], .channel-1Shao0[href="/store"] {
+	/* Retire l'onglet Nitro */
+	.channel-1Shao0[href="/store"] {
 		display: none;
+	}
+	/* Retire l'onglet Amis (désactivé par défaut) */
+	.channel-1Shao0[href="/channels/@me"] {
+		display: var(--bui-friends-tab, block);
 	}
 	/* Réduit l'espacement au-dessus de "MESSAGES PRIVÉS" */
 	.privateChannelsHeaderContainer-1UWASm {
@@ -77,8 +85,10 @@
 
 
 /* Messages */
-	/* Retire les boutons de la zone de message */
-	.buttons-uaqb-5 {display: none}
+	/* Retire le bouton de cadeau */
+	.buttons-uaqb-5 > button {display: none}
+	/* Retire les autres boutons */
+	.buttons-uaqb-5 {display: var(--bui-message-buttons, flex)}
 	/* Réduit l'espace en dessous de la zone d'envoi de message et du panneau de suivi de salon d'annonces */
 	.channelTextArea-1FufC0.channelTextArea-1VQBuV, .wrapper-1_HaEi {margin: 0}
 	/* Met un espace uniforme autour de 10 pixels */
@@ -200,6 +210,7 @@
 	.searchBar-zdmu7v {width: 240px}
 	/* Sur les popup des Webhook : les marques comme tel et supprime la barre */
 	.avatarWrapperNonUserBot-2LumL4 + .headerTop-3GPUSF .botText-1fD6Qk:before {content: 'WEBHOOK '}
+	/* Sur les popup des Webhook : Supprimme la ligne qui ne sépare rien */
 	.avatarWrapperNonUserBot-2LumL4 + .headerTop-3GPUSF + div {display: none}
 	/* Retire l'étiquette 'Nouveau' de la liste des serveurs */
 	.unreadMentionsIndicatorBottom-3RJMnQ {display: none}
