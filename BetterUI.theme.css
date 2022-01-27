@@ -1,9 +1,14 @@
 /**
  * @name Better UI
  * @author Rashnain
- * @version 1.1
- * @description A theme that takes advantage of your entire screen, removes Stage Discovery and Nitro tabs, with more improvements for the user experience included.
+ * @version 1.2
+ * @description A theme that takes advantage of your entire screen and compact some things, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
 
 @import url("https://rashnain.github.io/BetterUI/src/BetterUI.css")
+
+:root {
+--bui-friends-tab: block; /* Visibility of the Friends tab | block or none */
+--bui-message-buttons: flex; /* Visibility of the gif, stickers and emojis buttons | flex or none */
+}
