@@ -1,7 +1,7 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.1.12
+ * @version 1.1.13
  * @description A theme that takes advantage of your entire screen and compact some things, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
@@ -28,12 +28,16 @@
 
 /* Liste des messages privés */
 	/* Retire l'onglet Nitro */
-	.channel-1Shao0[href="/store"] {
+	.link-39sEB3[href="/store"] {
 		display: none;
 	}
 	/* Retire l'onglet Amis (désactivé par défaut) */
-	.channel-1Shao0[href="/channels/@me"] {
+	.link-39sEB3[href="/channels/@me"] {
 		display: var(--bui-friends-tab, block);
+	}
+	/* Retire l'espace entre la recherche et les MP */
+	.content-2a4AW9 > div[style="height: 8px;"] {
+		height: 0 !important;
 	}
 	/* Réduit l'espacement au-dessus de "MESSAGES PRIVÉS" */
 	.privateChannelsHeaderContainer-1UWASm {
