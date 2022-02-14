@@ -6,8 +6,9 @@
 	--fix-folder: calc(12px + var(--fix-folder-hsl, 0px));
 	--fix-folder-hsl: calc(var(--server-size) / 2 - 7px);
 }
-.channel-1Shao0[href="/store"] {display: none}
-.channel-1Shao0[href="/channels/@me"] {display: var(--bui-friends-tab, block)}
+.link-39sEB3[href="/store"] {display: none}
+.link-39sEB3[href="/channels/@me"] {display: var(--bui-friends-tab, block)}
+.content-2a4AW9 > div[style="height: 8px;"] {height: 0 !important}
 .privateChannelsHeaderContainer-1UWASm {
 	padding-top: 4px;
 	height: 22px;
