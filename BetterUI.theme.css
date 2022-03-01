@@ -1,7 +1,7 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.1.13
+ * @version 1.1.14
  * @description A theme that takes advantage of your entire screen and compact some things, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
@@ -9,6 +9,12 @@
 
 /* Variables */
 :root {
+	/* Paramètres modifiables par l'utilisateur */
+	/* Visibility of the Friends tab | "block" (visible) or "none" (not visible) */
+	--bui-friends-tab: none;
+	/* Visibility of the gif, stickers and emojis buttons | "flex" (visible) or "none" (not visible) */
+	--bui-message-buttons: none;
+
 	/* Défini la hauteur de la barre de serveur (avec HSL) et la taille des boutons */
 	--server-container: calc(var(--server-size, 22px) + 15px) !important;
 	/* (Avec HSL) Marge au dessus et en dessous des icones des serveurs */
@@ -19,25 +25,19 @@
 	/* Adapte la position de l'arrière plan de dossier de serveurs en fonction de la présence d'HLS */
 	--fix-folder: calc(12px + var(--fix-folder-hsl, 0px));
 	--fix-folder-hsl: calc(var(--server-size) / 2 - 7px);
-	/* Visibilité de l'onglet Amis (visible par défaut) */
-	--bui-friends-tab: none;
-	/* Visibilité des boutons à droite de la boîte de message */
-	--bui-message-buttons: none;
 }
 
 
 /* Liste des messages privés */
 	/* Retire l'onglet Nitro */
-	.link-39sEB3[href="/store"] {
-		display: none;
-	}
+	.link-39sEB3[href="/store"] {display: none}
 	/* Retire l'onglet Amis (désactivé par défaut) */
 	.link-39sEB3[href="/channels/@me"] {
 		display: var(--bui-friends-tab, block);
 	}
 	/* Retire l'espace entre la recherche et les MP */
 	.content-2a4AW9 > div[style="height: 8px;"] {
-		height: 0 !important;
+		display: var(--bui-friends-tab);
 	}
 	/* Réduit l'espacement au-dessus de "MESSAGES PRIVÉS" */
 	.privateChannelsHeaderContainer-1UWASm {
@@ -211,7 +211,7 @@
 	/* Corrige la page de l'overlay en jeu */
 	.notificationSettings-1U0JsJ {max-width: 35%}
 	/* Taille de la barre de recherche fixe */
-	.searchBar-zdmu7v {width: 240px}
+	.searchBar-jGtisZ {width: 240px}
 	/* Sur les popup des Webhook : les marques comme tel et supprime la barre */
 	.avatarWrapperNonUserBot-2LumL4 + .headerTop-3GPUSF .botText-1fD6Qk:before {content: 'WEBHOOK '}
 	/* Sur les popup des Webhook : Supprimme la ligne qui ne sépare rien */
