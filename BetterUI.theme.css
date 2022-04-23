@@ -1,7 +1,7 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.1.14
+ * @version 1.1.15
  * @description A theme that takes advantage of your entire screen and compact some things, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
@@ -187,6 +187,8 @@
 	.membersGroup-2eiWxl {padding: 12px}
 	/* Réduit la hauteur de la barre d'outils (celle en permanence en haut de l'écran) */
 	.container-ZMc96U, .header-3OsQeK, .searchBar-3TnChZ {height: 37px}
+	/* Fix le nom du serveur qui se retrouve en bas */
+	.header-3OsQeK {padding-top: 7px}
 	/* Réduit l'espace entre les cathégories de serveurs */
 	.containerDefault-3TQ5YN {padding-top: 10px}
 	/* Fixe l'espace entre la bannière de serveur et la première cathégorie/salon */
