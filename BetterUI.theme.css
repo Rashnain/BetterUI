@@ -1,7 +1,7 @@
 /**
  * @name Better UI Debug
  * @author Rashnain
- * @version 1.1.15
+ * @version 1.1.16
  * @description A theme that takes advantage of your entire screen and compact some things, with more improvements for the user experience included.
  * @source https://github.com/Rashnain/BetterUI
 */
@@ -72,9 +72,7 @@
 	/* Pour certaines pages des paramètres d'un serveur, supprime l'espace au dessus du titre */
 	.content-2a4AW9 div[style*="height: 60px;"] {height: 0 !important}
 	/* Pareil pour l'onglet Logs du serveur */
-	.content-28mbXd .customHeader-3mDgmH {
-		padding: 0;
-	}
+	.content-28mbXd .customHeader-3mDgmH {padding: 0}
 	/* Corrige les contours pour l'onglet Logs de serveur */
 	.content-2a4AW9, .content-28mbXd {margin: 0 !important}
 	/* Corrections supplémentaires pour les rôles */
@@ -137,7 +135,7 @@
 		min-height: 700px;
 	}
 	/* Bannière de couleur qui prend toute la largeur */
-	.profileBanner-1owKI5 {width: 100%}
+	.profileBanner-1owKI5 {margin-left: 137.5px}
 	/* Banière Nitro centrée */
 	.profileBannerPremium-KD60EB {margin-left: 137.5px}
 	/* Adaptation de la partie inférieure */
