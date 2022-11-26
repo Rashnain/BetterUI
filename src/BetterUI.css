@@ -87,6 +87,7 @@
 }
 .avatar-2e8lTP, .avatar-3TrM7c {border-radius: var(--rs-avatar-shape, 50%)}
 .membersGroup-2eiWxl {padding: 12px}
+.membersWrap-3NUR2t .membersGroup-2eiWxl::after {top: 18px}
 .container-ZMc96U, .header-3OsQeK, .searchBar-3TnChZ {height: 37px}
 .header-3OsQeK {padding-top: 7px}
 .containerDefault-3TQ5YN {padding-top: 10px}
