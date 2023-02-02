@@ -9,8 +9,8 @@
 @import url("https://rashnain.github.io/BetterUI/src/BetterUI.css");
 
 :root {
-	/* Visibility of the Friends tab | "block" (visible) or "none" (not visible) */
+	/* Visibility of the Friends tab | OPTIONS: block (visible), none (removed) | DEFAULT: block */
 	--bui-friends-tab: block;
-	/* Visibility of the gif, stickers and emojis buttons | "flex" (visible) or "none" (not visible) */
+	/* Visibility of the GIF, sticker and emoji buttons | OPTIONS: flex (visible), none (removed) | DEFAULT: flex */
 	--bui-message-buttons: flex;
 }
