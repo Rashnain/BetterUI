@@ -19,7 +19,7 @@
 	.link-39sEB3[href="/channels/@me"] {
 		display: var(--bui-friends-tab, block);
 	}
-	/* Reduce margin between search and DM todo */
+	/* Reduce margin between search and DM */
 	.content-2a4AW9 > div[style="height: 8px;"] {
 		display: var(--bui-friends-tab);
 	}
@@ -76,7 +76,7 @@
 	/* Remove other buttons (configurable) */
 	.buttons-uaqb-5 {display: var(--bui-message-buttons, flex)}
 	/* Reduce space below the message sending box */
-	.channelTextArea-1FufC0.channelTextArea-1VQBuV, .wrapper-1_HaEi {margin: 0}
+	.channelTextArea-1FufC0.channelTextArea-1VQBuV, .wrapper-2SplAX {margin: 0}
 	/* Add 10 px of padding around it */
 	.form-3gdLxP {padding: 10px}
 	/* Fix the grey bar that indicates it is showing older messages */
@@ -112,20 +112,6 @@
 	.markup-eYLPri.slateTextArea-27tjG0.fontSize20Padding-1vWJeR.textAreaWithoutAttachmentButton-1as0NS {padding: 0}
 
 
-/* User profile */
-	/* Change size todo */
-	.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
-		width: 875px;
-		min-height: 700px;
-	}
-	/* Colored banner uses the full width todo */
-	.profileBanner-1owKI5 {margin-left: 137.5px}
-	/* Center premium banner todo */
-	.profileBannerPremium-KD60EB {margin-left: 137.5px}
-	/* Adjust the part below todo */
-	.body-1Ukv50, .listScroller-entkMk {height: 404px}
-
-
 /* Integrate window buttons into the UI */
 	/* Remove the logo */
 	.wordmarkWindows-2dq6rw {display: none}
@@ -144,7 +130,7 @@
 	}
 	/* Adjust the close button of the settings */
 	.toolsContainer-25FL6V {padding-top: calc(10px + var(--server-container))}
-	/* Move the toolbar to the left side (adapt to HSL presence) */
+	/* Move the toolbar to the left side (adapt to HSL absence) */
 	.toolbar-3_r2xA {margin-right: var(--toolbar-margin)}
 	/* For HSL */
 		/* Reduce margin below servers */
@@ -161,7 +147,7 @@
 
 /* Enhance RadialStatus */
 	/* Use RS' avatar shape in message and server call */
-	.avatar-2e8lTP, .avatar-3TrM7c {border-radius: var(--rs-avatar-shape, 50%)}
+	.avatar-2e8lTP, .avatar-3FKimL {border-radius: var(--rs-avatar-shape, 50%)}
 
 
 /* Others */
@@ -181,13 +167,6 @@
 	}
 	/* Reduce space used by the button to close settings */
 	.toolsContainer-25FL6V {margin-right: 15px !important}
-	/* Center image of Nitro tab todo */
-	.hero-1aNo0v.desaturate-_Twf3u {margin-left: calc(50% - 330px)}
-	/* Center features of Nitro tab todo */
-	.featuresHeader-2bjq5B {
-		text-align: center;
-		margin-top: 16px;
-	}
 	/* Fix HypeSquad video */
 	.outer-VAWfYQ.video-293uMj.videoWrapper-1_H3B3 {
 		padding: 0 !important;
@@ -195,13 +174,9 @@
 		height: 360px;
 	}
 	/* Fix overlay page */
-	.notificationSettings-1U0JsJ {max-width: 35%}
+	.notificationSettings-3dppO6 {max-width: 35%}
 	/* Fixed width search bar */
 	.searchBar-jGtisZ {width: 240px}
-	/* Show "WEBHOOK" on webhook popup profile todo */
-	.avatarWrapperNonUserBot-2LumL4 + .headerTop-3GPUSF .botText-1fD6Qk:before {content: 'WEBHOOK '}
-	/* Remove unnecessary separator on webhook popup profile */
-	.avatarWrapperNonUserBot-2LumL4 + .headerTop-3GPUSF + div {display: none}
 	/* Remove unread mention appearing on server list */
 	.unreadMentionsIndicatorBottom-3RJMnQ {display: none}
 	/* Remove Discovery button */

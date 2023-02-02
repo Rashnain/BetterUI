@@ -11,7 +11,6 @@ Download the [theme file](https://github.com/Rashnain/BetterUI/raw/main/BetterUI
 
 * Uses the whole screen for things like parameters
 * Removes the top bar that contains the Discord logo and integrates the buttons next to the help button
-* Increases the size of user profiles
 * Background images of server invites aren't cropped
 * Removes Nitro and Friends tabs*
 * Removes gift, GIF, stiker and emoji buttons from the message bar*
