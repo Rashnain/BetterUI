@@ -162,7 +162,7 @@
 	/* Reduce space around server categories */
 	.containerDefault-3TQ5YN {padding-top: 10px}
 	/* Fix space between server banner and the first category/channel */
-	.hasBanner-2IrYih + div + .positionedContainer-W9XtGp + .scrollerBase-1Pkza4 > .content-yjf30S > div[style="height: 84px;"] {
+	.content-yjf30S > div[style="height: 84px;"] {
 		height: 98px !important;
 	}
 	/* Reduce space used by the button to close settings */
