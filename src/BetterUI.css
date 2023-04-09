@@ -152,7 +152,7 @@
 
 /* Others */
 	/* Center role name in server members list */
-	.membersGroup-2eiWxl {padding: 12px}
+	.membersGroup-2eiWxl {padding-top: 12px}
 	/* Adjust to MinifiedMemberList */
 	.membersWrap-3NUR2t .membersGroup-2eiWxl::after {top: 19px !important}
 	/* Reduce toolbar height */
