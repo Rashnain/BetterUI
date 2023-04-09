@@ -154,7 +154,7 @@
 	/* Center role name in server members list */
 	.membersGroup-2eiWxl {padding: 12px}
 	/* Adjust to MinifiedMemberList */
-	.membersWrap-3NUR2t .membersGroup-2eiWxl::after {top: 18px}
+	.membersWrap-3NUR2t .membersGroup-2eiWxl::after {top: 19px !important}
 	/* Reduce toolbar height */
 	.container-ZMc96U, .header-3OsQeK, .searchBar-3TnChZ {height: 37px}
 	/* Fix server name */
