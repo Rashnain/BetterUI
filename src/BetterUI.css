@@ -156,7 +156,7 @@
 	/* Adjust to MinifiedMemberList */
 	.membersWrap-3NUR2t .membersGroup-2eiWxl::after {top: 19px !important}
 	/* Reduce toolbar height */
-	.container-ZMc96U, .header-3OsQeK, .searchBar-3TnChZ {height: 37px}
+	.container-ZMc96U, .header-3OsQeK, .searchBar-3TnChZ {height: 37px !important}
 	/* Fix server name */
 	.header-3OsQeK {padding-top: 7px}
 	/* Reduce space around server categories */
