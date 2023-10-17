@@ -152,9 +152,9 @@
 
 /* Others */
 	/* Center role name in server members list */
-	.membersGroup-2eiWxl {padding-top: 12px}
+	.membersGroup-2YoqY- {padding-top: 12px}
 	/* Adjust to MinifiedMemberList */
-	.membersWrap-3NUR2t .membersGroup-2eiWxl::after {top: 19px !important}
+	.membersWrap-3GwLFp .membersGroup-2YoqY-::after {top: 19px !important}
 	/* Reduce toolbar height */
 	.container-ZMc96U, .header-3OsQeK, .searchBar-3TnChZ {height: 37px !important}
 	/* Fix server name */
