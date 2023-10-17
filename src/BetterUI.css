@@ -76,9 +76,9 @@
 	/* Remove other buttons (configurable) */
 	.buttons-uaqb-5 {display: var(--bui-message-buttons, flex)}
 	/* Reduce space below the message sending box */
-	.channelTextArea-1FufC0.channelTextArea-1VQBuV, .wrapper-2SplAX {margin: 0}
+	.channelTextArea-1deLlK.channelTextArea-1VQBuV, .wrapper-2SplAX {margin: 0}
 	/* Add 10 px of padding around it */
-	.form-3gdLxP {padding: 10px}
+	.form-3qe0Ni {padding: 10px}
 	/* Fix the grey bar that indicates it is showing older messages */
 	.jumpToPresentBar-1cEnH0 {padding: 0}
 	/* Move pseudo of writing users */
