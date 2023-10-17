@@ -14,7 +14,7 @@
 
 /* List of private channels */
 	/* Remove Nitro tab */
-	.link-39sEB3[href="/store"] {display: none}
+	.link-39sEB3[href="/store"], .link-39sEB3[href="/shop"] {display: none}
 	/* Remove Friends tab (configurable) */
 	.link-39sEB3[href="/channels/@me"] {
 		display: var(--bui-friends-tab, block);
