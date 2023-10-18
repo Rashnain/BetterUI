@@ -1,6 +1,6 @@
 :root {
 	/* Set the height of the server list (with HSL) and the size of the window buttons */
-	--server-container: calc(var(--server-size, 22px) + 15px) !important;
+	--server-container: calc(var(--server-size, 33px) + 15px) !important;
 	/* (With HSL) Margin above and below server list */
 	--server-margin: calc(var(--server-spacing) - calc(var(--server-spacing) - 5px));
 	/* Adjust right margin of the toolbar depending on HSL presence */
@@ -114,16 +114,16 @@
 
 /* Integrate window buttons into the UI */
 	/* Remove the logo */
-	.wordmarkWindows-2dq6rw {display: none}
+	.wordmarkWindows-1rsity {display: none}
 	/* Remove the window bar */
-	.typeWindows-2-g3UY {
+	.typeWindows-3ILlhq {
 		position: absolute;
 		width: 100%;
 		height: 10px;
 		margin: 0;
 	}
 	/* Change buttons size */
-	.winButton-3UMjdg {
+	.winButton-3SigSb {
 		top: 0;
 		height: var(--server-container);
 		width: var(--server-container);
