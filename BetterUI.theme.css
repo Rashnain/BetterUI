@@ -6,7 +6,7 @@
  * @source https://github.com/Rashnain/BetterUI
 */
 
-@import url("https://rashnain.github.io/BetterUI/src/BetterUI.css");
+@import url("https://rashnain.github.io/BetterUI/src/BetterUI.source.css");
 
 :root {
 	/* Visibility of the Friends tab | OPTIONS: block (visible), none (removed) | DEFAULT: block */
