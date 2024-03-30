@@ -14,31 +14,31 @@
 
 /* List of private channels */
 	/* Remove Nitro tab */
-	.link-39sEB3[href="/store"], .link-39sEB3[href="/shop"] {display: none}
+	.link__3a950[href="/store"], .link__3a950[href="/shop"] {display: none}
 	/* Remove Friends tab (configurable) */
-	.link-39sEB3[href="/channels/@me"] {
+	.link__3a950[href="/channels/@me"] {
 		display: var(--bui-friends-tab, block);
 	}
 	/* Reduce margin between search and DM */
-	.content-yjf30S > div[style="height: 8px;"] {
+	.content__690c5 > div[style="height: 8px;"] {
 		display: var(--bui-friends-tab);
 	}
 	/* Reduce margin above "DIRECT MESSAGES" */
-	.privateChannelsHeaderContainer-1UWASm {
+	.privateChannelsHeaderContainer_b22dc9 {
 		padding-top: 4px;
 		height: 22px;
 	}
 	/* Don't change text colour when hovering over "DIRECT MESSAGES" */
-	.privateChannelsHeaderContainer-1UWASm:hover {
+	.privateChannelsHeaderContainer_b22dc9:hover {
 		color: rgb(142, 146, 151);
 	}
 
 
 /* Settings navigation bar */
 	/* Remove left margin */
-	.sidebarRegion-1VBisG {flex: 0}
+	.sidebarRegion__36437 {flex: 0}
 	/* Compact navigation bar */
-	.sidebar-nqHbhN {padding: 10px 5px 5px 5px}
+	.sidebar__02e8d {padding: 10px 5px 5px 5px}
 	/* Reduce tab height slightly */
 	.item-3XjbnG.themed-2-lozF {padding: 5px 10px}
 	/* Reduce margin around tab separator */
@@ -49,55 +49,55 @@
 
 /* Allow pages to use full width */
 	/* Common rule */
-	.contentColumn-1C7as6, .customScroller-m1-jZn > div, .customColumn-2n-oKU {
+	.contentColumn__5f80b, .customScroller_b96e1e > div, .customColumn__0b6a6 {
 		padding: 20px;
 		max-width: 95%;
 	}
 	/* For some server pages, remove space above title */
 	.content-2a4AW9 div[style*="height: 60px;"] {height: 0 !important}
 	/* Same for server logs */
-	.content-28mbXd .customHeader-3mDgmH {padding: 0}
+	.content__97388 .customHeader_c68a90 {padding: 0}
 	/* Correct borders for server logs */
-	.content-2a4AW9, .content-28mbXd {margin: 0 !important}
+	.content-2a4AW9, .content__97388 {margin: 0 !important}
 	/* Additional corrections for roles page */
 		/* Remove space above the back button */
-		.titleContainer-3fPic2 {padding-top: 0}
+		.titleContainer_d09261 {padding-top: 0}
 		/* Allow the right zone to take more space */
-		.contentWidth-3aWel5 {max-width: 95%}
+		.contentWidth_f1e6d4 {max-width: 95%}
 		/* Remove space above right zone */
-		.header-JUTO-g {padding-top: 20px}
+		.header_ee0bd9 {padding-top: 20px}
 		/* To render correctly, adjust the right zone */
-		.contentContainer-3hXFtK, .headerContainer-7V7BBm {padding-left: 20px !important}
+		.contentContainer__50662, .headerContainer__282e2 {padding-left: 20px !important}
 
 
 /* Messages */
 	/* Remove gift button */
-	.buttons-uaqb-5 > button {display: none}
+	.buttons__7ecff > button {display: none}
 	/* Remove other buttons (configurable) */
-	.buttons-uaqb-5 {display: var(--bui-message-buttons, flex)}
+	.buttons__7ecff {display: var(--bui-message-buttons, flex)}
 	/* Reduce space below the message sending box */
-	.channelTextArea-1deLlK.channelTextArea-1VQBuV, .wrapper-2SplAX {margin: 0}
+	.channelTextArea_c2094b.channelTextArea__648e5, .wrapper__57349 {margin: 0}
 	/* Add 10 px of padding around it */
-	.form-3qe0Ni {padding: 10px}
+	.form_d8a4a1 {padding: 10px}
 	/* Fix the grey bar that indicates it is showing older messages */
-	.jumpToPresentBar-1cEnH0 {padding: 0}
+	.jumpToPresentBar__69174 {padding: 0}
 	/* Move pseudo of writing users */
-	.typing-2J1mQU {height: 10px}
+	.typing__6fd1d {height: 10px}
 	/* Reduce space between the last message and the message sending box */
-	.scrollerSpacer-3AqkT9 {height: 5px}
+	.scrollerSpacer__6b1b6 {height: 5px}
 	/* Reduce space around dates that separate messages */
-	.divider-IqmEqJ.hasContent-1y12-u.divider-2rZFJK.hasContent-31hcsn {margin: 10px}
+	.divider__01aed.hasContent__1fe13.divider__855e3.hasContent_c79a1f {margin: 10px}
 	/* Reduce the side margin of messages */
-	.message-2CShn3.cozyMessage-1DWF9U.wrapper-30-Nkg.cozy-VmLDNB {
+	.message_ccca67.cozyMessage__9f4fd.wrapper_a62503.cozy_f5c119 {
 		padding-right: 5px !important;
 		padding-left: 60px;
 	}
 	/* Reduce space around avatar */
-	.avatar-2e8lTP {left: 10px}
+	.avatar__08316 {left: 10px}
 	/* Reduce space around icon containers (call, thread) */
-	.iconContainer-2rPbqG {width: 60px !important}
+	.iconContainer_d0200f {width: 60px !important}
 	/* Fix for thread */
-	.message-2CShn3.cozyMessage-1DWF9U.wrapper-30-Nkg.cozy-VmLDNB:after {
+	.message_ccca67.cozyMessage__9f4fd.wrapper_a62503.cozy_f5c119:after {
 		left: 29px !important;
 		width: 1.25em;
 	}
@@ -105,83 +105,83 @@
 
 /* Message editing */
 	/* Remove the help below the edit box */
-	.operations-3q3u6E {display: none}
+	.operations__62559 {display: none}
 	/* Remove margin above the edit box */
-	.channelTextArea-220_Gz.channelTextArea-1VQBuV {margin: 0}
+	.channelTextArea__626ee.channelTextArea__648e5 {margin: 0}
 	/* Remove space around message */
-	.markup-eYLPri.slateTextArea-27tjG0.fontSize20Padding-1vWJeR.textAreaWithoutAttachmentButton-1as0NS {padding: 0}
+	.markup_a7e664.slateTextArea_b19976.fontSize20Padding_a6d622.textAreaWithoutAttachmentButton__8a454 {padding: 0}
 
 
 /* Integrate window buttons into the UI */
 	/* Remove the logo */
-	.wordmarkWindows-1rsity {display: none}
+	.wordmarkWindows_ffbc5e {display: none}
 	/* Remove the window bar */
-	.typeWindows-3ILlhq {
+	.typeWindows_e41dab {
 		position: absolute;
 		width: 100%;
 		height: 10px;
 		margin: 0;
 	}
 	/* Change buttons size */
-	.winButton-3SigSb {
+	.winButton_f17fb6 {
 		top: 0;
 		height: var(--server-container);
 		width: var(--server-container);
 	}
 	/* Adjust the close button of the settings */
-	.toolsContainer-25FL6V {padding-top: calc(10px + var(--server-container))}
+	.toolsContainer__4e6ad {padding-top: calc(10px + var(--server-container))}
 	/* Move the toolbar to the left side (adapt to HSL absence) */
-	.toolbar-3_r2xA {margin-right: var(--toolbar-margin)}
+	.toolbar__62fb5 {margin-right: var(--toolbar-margin)}
 	/* For HSL */
 		/* Reduce margin below servers */
-		.guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
+		.guilds__2b93a [class*=listItem]:not([class*=listItemWrapper]) {
 			margin: var(--server-spacing, 8px) var(--server-margin, 0) !important;
 		}
 		/* Fix server folder background */
-		.expandedFolderBackground-1kSAf6 {left: var(--fix-folder) !important}
+		.expandedFolderBackground_b1385f {left: var(--fix-folder) !important}
 		/* Fix servers that appear under window buttons */
-		.scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4 {
+		.scroller_de945b.none__7a473.scrollerBase_f742b2 {
 			margin-bottom: calc(3 * calc(var(--server-size) + 15px));
 		}
 
 
 /* Enhance RadialStatus */
 	/* Use RS' avatar shape in message and server call */
-	.avatar-2e8lTP, .avatar-3FKimL {border-radius: var(--rs-avatar-shape, 50%)}
+	.avatar__08316, .avatar_a56eee {border-radius: var(--rs-avatar-shape, 50%)}
 
 
 /* Others */
 	/* Center role name in server members list */
-	.membersGroup-2YoqY- {padding-top: 12px}
+	.membersGroup_cad095 {padding-top: 12px}
 	/* Adjust to MinifiedMemberList */
-	.membersWrap-3GwLFp .membersGroup-2YoqY-::after {top: 19px !important}
+	.membersWrap__5ca6b .membersGroup_cad095::after {top: 19px !important}
 	/* Reduce toolbar height */
-	.container-ZMc96U, .header-3OsQeK, .searchBar-3TnChZ {height: 37px !important}
+	.container__26baa, .header__77c95, .searchBar__621ec {height: 37px !important}
 	/* Fix server name */
-	.header-3OsQeK {padding-top: 7px}
+	.header__77c95 {padding-top: 7px}
 	/* Reduce space around server categories */
-	.containerDefault-3TQ5YN {padding-top: 10px}
+	.containerDefault_e3b32b {padding-top: 10px}
 	/* Fix space between server banner and the first category/channel */
-	.content-yjf30S > div[style="height: 84px;"] {
+	.content__690c5 > div[style="height: 84px;"] {
 		height: 98px !important;
 	}
 	/* Reduce space used by the button to close settings */
-	.toolsContainer-25FL6V {margin-right: 15px !important}
+	.toolsContainer__4e6ad {margin-right: 15px !important}
 	/* Fix HypeSquad video */
-	.outer-VAWfYQ.video-293uMj.videoWrapper-1_H3B3 {
+	.outer_ac1c07.video-293uMj.videoWrapper__530de {
 		padding: 0 !important;
 		width: 640px;
 		height: 360px;
 	}
 	/* Fix overlay page */
-	.notificationSettings-3dppO6 {max-width: 35%}
+	.notificationSettings_e41efa {max-width: 35%}
 	/* Fixed width search bar */
-	.searchBar-jGtisZ {width: 240px}
+	.searchBar__5a20a {width: 240px}
 	/* Remove unread mention appearing on server list */
-	.unreadMentionsIndicatorBottom-3RJMnQ {display: none}
+	.unreadMentionsIndicatorBottom__9351c {display: none}
 	/* Remove Discovery button */
-	.tutorialContainer-2jwoiB + .listItem-3SmSlK {display: none}
+	.tutorialContainer__6835f + .listItem__48528 {display: none}
 	/* Server invite image displayed correctly */
-	.inviteSplash-2Q0PLE {
+	.inviteSplash__0cd5c {
 		width: 790px;
 	}
