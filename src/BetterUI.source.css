@@ -86,7 +86,7 @@
 	/* Reduce space between the last message and the message sending box */
 	.scrollerSpacer_e2e187 {height: 5px}
 	/* Reduce space around dates that separate messages */
-	.divider_d5deea.hasContent_d5deea.divider_fc5f50.hasContent_fc5f50 {margin: 10px}
+	.divider_d5deea.hasContent_d5deea.divider_c2654d.hasContent_c2654d {margin: 10px}
 	/* Reduce the side margin of messages */
 	.message_d5deea.cozyMessage_d5deea.wrapper_ec86aa.cozy_ec86aa {
 		padding-right: 5px !important;
@@ -140,7 +140,7 @@
 		/* Fix server folder background */
 		.expandedFolderBackground_bc7085 {left: var(--fix-folder) !important}
 		/* Fix servers that appear under window buttons */
-		.scroller_fea3ef.none_eed6a8.scrollerBase_eed6a8 {
+		.scroller_fea3ef.none_c49869.scrollerBase_c49869 {
 			margin-bottom: calc(3 * calc(var(--server-size) + 15px));
 		}
 
