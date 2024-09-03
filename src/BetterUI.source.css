@@ -19,6 +19,10 @@
 	.link_c91bad[href="/channels/@me"] {
 		display: var(--bui-friends-tab, block);
 	}
+	/* Remove app button */
+	.channelAppLauncher_df39bd {
+		display: none;
+	}
 	/* Reduce margin between search and DM */
 	.content_eed6a8 > div[style="height: 8px;"] {
 		display: var(--bui-friends-tab);
