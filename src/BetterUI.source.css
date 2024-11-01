@@ -76,11 +76,11 @@
 
 /* Messages */
 	/* Remove gift button */
-	.buttons_d0696b > button {display: none}
+	.buttons_bdf0de > button {display: none}
 	/* Remove other buttons (configurable) */
-	.buttons_d0696b {display: var(--bui-message-buttons, flex)}
+	.buttons_bdf0de {display: var(--bui-message-buttons, flex)}
 	/* Reduce space below the message sending box */
-	.channelTextArea_a7d72e.channelTextArea_d0696b, .wrapper_faf5ab {margin: 0}
+	.channelTextArea_a7d72e.channelTextArea_bdf0de, .wrapper_faf5ab {margin: 0}
 	/* Add 10 px of padding around it */
 	.form_a7d72e {padding: 10px}
 	/* Fix the grey bar that indicates it is showing older messages */
@@ -92,16 +92,16 @@
 	/* Reduce space around dates that separate messages */
 	.divider_d5deea.hasContent_d5deea.divider_c2654d.hasContent_c2654d {margin: 10px}
 	/* Reduce the side margin of messages */
-	.message_d5deea.cozyMessage_d5deea.wrapper_ec86aa.cozy_ec86aa {
+	.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca {
 		padding-right: 5px !important;
 		padding-left: 60px;
 	}
 	/* Reduce space around avatar */
-	.avatar_ec86aa {left: 10px}
+	.avatar_f9f2ca {left: 10px}
 	/* Reduce space around icon containers (call, thread) */
-	.iconContainer_e62b38 {width: 60px !important}
+	.iconContainer_d76df7 {width: 60px !important}
 	/* Fix for thread */
-	.message_d5deea.cozyMessage_d5deea.wrapper_ec86aa.cozy_ec86aa:after {
+	.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca:after {
 		left: 29px !important;
 		width: 1.25em;
 	}
@@ -109,11 +109,11 @@
 
 /* Message editing */
 	/* Remove the help below the edit box */
-	.operations_ed9386 {display: none}
+	.operations_baf0d6 {display: none}
 	/* Remove margin above the edit box */
-	.channelTextArea_d5deea.channelTextArea_d0696b {margin: 0}
+	.channelTextArea_d5deea.channelTextArea_bdf0de {margin: 0}
 	/* Remove space around message */
-	.markup_d6076c.slateTextArea_e52116.fontSize20Padding_d0696b.textAreaWithoutAttachmentButton_d0696b {padding: 0}
+	.markup_f8f345.slateTextArea_e52116.fontSize20Padding_bdf0de.textAreaWithoutAttachmentButton_bdf0de {padding: 0}
 
 
 /* Integrate window buttons into the UI */
@@ -135,7 +135,7 @@
 	/* Adjust the close button of the settings */
 	.toolsContainer_c25c6d {padding-top: calc(10px + var(--server-container))}
 	/* Move the toolbar to the left side (adapt to HSL absence) */
-	.toolbar_e44302 {margin-right: var(--toolbar-margin)}
+	.toolbar_fc4f04 {margin-right: var(--toolbar-margin)}
 	/* For HSL */
 		/* Reduce margin below servers */
 		.guilds_a4d4d9 [class*=listItem]:not([class*=listItemWrapper]) {
@@ -151,7 +151,7 @@
 
 /* Enhance RadialStatus */
 	/* Use RS' avatar shape in message and server call */
-	.avatar_ec86aa, .avatar_cdc675 {border-radius: var(--rs-avatar-shape, 50%)}
+	.avatar_f9f2ca, .avatar_d80634 {border-radius: var(--rs-avatar-shape, 50%)}
 
 
 /* Others */
@@ -160,7 +160,7 @@
 	/* Adjust to MinifiedMemberList */
 	.membersWrap_cbd271 .membersGroup_cbd271::after {top: 19px !important}
 	/* Reduce toolbar height */
-	.container_e44302, .header_fd6364, .searchBar_f0963d {height: 37px !important}
+	.container_fc4f04, .header_fd6364, .searchBar_f0963d {height: 37px !important}
 	/* Fix server name */
 	.header_fd6364 {padding-top: 7px}
 	/* Reduce space around server categories */
@@ -172,7 +172,7 @@
 	/* Reduce space used by the button to close settings */
 	.toolsContainer_c25c6d {margin-right: 15px !important}
 	/* Fix HypeSquad video */
-	.outer_f61848.video-293uMj.videoWrapper_b8e00f {
+	.outer_b15852.video-293uMj.videoWrapper_b8e00f {
 		padding: 0 !important;
 		width: 640px;
 		height: 360px;
