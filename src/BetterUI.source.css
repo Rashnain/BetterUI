@@ -181,6 +181,8 @@
 	.notificationSettings_af804a {max-width: 35%}
 	/* Fixed width search bar */
 	.searchBar_a46bef {width: 240px}
+	/* Remove Help button */
+	.anchor_af404b.anchorUnderlineOnHover_af404b {display: none}
 	/* Remove unread mention appearing on server list */
 	.unreadMentionsIndicatorBottom_fea3ef {display: none}
 	/* Remove Discovery button */
