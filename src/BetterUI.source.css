@@ -14,33 +14,33 @@
 
 /* List of private channels */
 	/* Remove Nitro tab */
-	.link_c91bad[href="/store"], .link_c91bad[href="/shop"] {display: none}
+	.link__972a0[href="/store"], .link__972a0[href="/shop"] {display: none}
 	/* Remove Friends tab (configurable) */
-	.link_c91bad[href="/channels/@me"] {
+	.link__972a0[href="/channels/@me"] {
 		display: var(--bui-friends-tab, block);
 	}
 	/* Remove app button */
-	.channelAppLauncher_df39bd {display: none}
+	.channelAppLauncher_e6e74f {display: none}
 	/* Reduce margin between search and DM */
-	.content_eed6a8 > div[style="height: 8px;"] {
+	.content__99f8c > div[style="height: 8px;"] {
 		display: var(--bui-friends-tab);
 	}
 	/* Reduce margin above "DIRECT MESSAGES" */
-	.privateChannelsHeaderContainer_c47fa9 {
+	.privateChannelsHeaderContainer__99e7c {
 		padding-top: 4px;
 		height: 22px;
 	}
 	/* Don't change text colour when hovering over "DIRECT MESSAGES" */
-	.privateChannelsHeaderContainer_c47fa9:hover {
+	.privateChannelsHeaderContainer__99e7c:hover {
 		color: rgb(142, 146, 151);
 	}
 
 
 /* Settings navigation bar */
 	/* Remove left margin */
-	.sidebarRegion_c25c6d {flex: 0}
+	.sidebarRegion__23e6b {flex: 0}
 	/* Compact navigation bar */
-	.sidebar_c25c6d {padding: 10px 5px 5px 5px}
+	.sidebar__23e6b {padding: 10px 5px 5px 5px}
 	/* Reduce tab height slightly */
 	.item-3XjbnG.themed-2-lozF {padding: 5px 10px}
 	/* Reduce margin around tab separator */
@@ -51,55 +51,55 @@
 
 /* Allow pages to use full width */
 	/* Common rule */
-	.contentColumn_c25c6d, .customScroller_c25c6d > div, .customColumn_c25c6d {
+	.contentColumn__23e6b, .customScroller__23e6b > div, .customColumn__23e6b {
 		padding: 20px;
 		max-width: 95%;
 	}
 	/* For some server pages, remove space above title */
 	.content-2a4AW9 div[style*="height: 60px;"] {height: 0 !important}
 	/* Same for server logs */
-	.content_cfe282 .customHeader_cfe282 {padding: 0}
+	.content__5906b .customHeader__5906b {padding: 0}
 	/* Correct borders for server logs */
-	.content-2a4AW9, .content_cfe282 {margin: 0 !important}
+	.content-2a4AW9, .content__5906b {margin: 0 !important}
 	/* Additional corrections for roles page */
 		/* Remove space above the back button */
-		.titleContainer_e87574 {padding-top: 0}
+		.titleContainer_e29cd7 {padding-top: 0}
 		/* Allow the right zone to take more space */
-		.contentWidth_bd05f1 {max-width: 95%}
+		.contentWidth_c6bf1b {max-width: 95%}
 		/* Remove space above right zone */
-		.header_bd05f1 {padding-top: 20px}
+		.header_c6bf1b {padding-top: 20px}
 		/* To render correctly, adjust the right zone */
-		.contentContainer_e8251c, .headerContainer_fe3229 {padding-left: 20px !important}
+		.contentContainer__91dc3, .headerContainer__9a73f {padding-left: 20px !important}
 
 
 /* Messages */
 	/* Remove gift button */
-	.buttons_bdf0de > button {display: none}
+	.buttons__74017 > button {display: none}
 	/* Remove other buttons (configurable) */
-	.buttons_bdf0de {display: var(--bui-message-buttons, flex)}
+	.buttons__74017 {display: var(--bui-message-buttons, flex)}
 	/* Reduce space below the message sending box */
-	.channelTextArea_a7d72e.channelTextArea_bdf0de, .wrapper_faf5ab {margin: 0}
+	.channelTextArea_f75fb0.channelTextArea__74017, .wrapper__44df5 {margin: 0}
 	/* Add 10 px of padding around it */
-	.form_a7d72e {padding: 10px}
+	.form_f75fb0 {padding: 10px}
 	/* Fix the grey bar that indicates it is showing older messages */
-	.jumpToPresentBar_cf58b5 {padding: 0}
+	.jumpToPresentBar__0f481 {padding: 0}
 	/* Move pseudo of writing users */
-	.typing_d7ebeb {height: 10px}
+	.typing_b88801 {height: 10px}
 	/* Reduce space between the last message and the message sending box */
-	.scrollerSpacer_e2e187 {height: 5px}
+	.scrollerSpacer__36d07 {height: 5px}
 	/* Reduce space around dates that separate messages */
-	.divider_d5deea.hasContent_d5deea.divider_c2654d.hasContent_c2654d {margin: 10px}
+	.divider__5126c.hasContent__5126c.divider__908e2.hasContent__908e2 {margin: 10px}
 	/* Reduce the side margin of messages */
-	.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca {
+	.message__5126c.cozyMessage__5126c.wrapper_c19a55.cozy_c19a55 {
 		padding-right: 5px !important;
 		padding-left: 60px;
 	}
 	/* Reduce space around avatar */
-	.avatar_f9f2ca {left: 10px}
+	.avatar_c19a55 {left: 10px}
 	/* Reduce space around icon containers (call, thread) */
-	.iconContainer_d76df7 {width: 60px !important}
+	.iconContainer__235ca {width: 60px !important}
 	/* Fix for thread */
-	.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca:after {
+	.message__5126c.cozyMessage__5126c.wrapper_c19a55.cozy_c19a55:after {
 		left: 29px !important;
 		width: 1.25em;
 	}
@@ -107,81 +107,81 @@
 
 /* Message editing */
 	/* Remove the help below the edit box */
-	.operations_baf0d6 {display: none}
+	.operations_bab751 {display: none}
 	/* Remove margin above the edit box */
-	.channelTextArea_d5deea.channelTextArea_bdf0de {margin: 0}
+	.channelTextArea__5126c.channelTextArea__74017 {margin: 0}
 	/* Remove space around message */
-	.markup_f8f345.slateTextArea_e52116.fontSize20Padding_bdf0de.textAreaWithoutAttachmentButton_bdf0de {padding: 0}
+	.markup__75297.slateTextArea_ec4baf.fontSize20Padding__74017.textAreaWithoutAttachmentButton__74017 {padding: 0}
 
 
 /* Integrate window buttons into the UI */
 	/* Remove the logo */
-	.wordmarkWindows_a934d8 {display: none}
+	.wordmarkWindows__421ed {display: none}
 	/* Remove the window bar */
-	.typeWindows_a934d8 {
+	.typeWindows__421ed {
 		position: absolute;
 		width: 100%;
 		height: 10px;
 		margin: 0;
 	}
 	/* Change buttons size */
-	.winButton_a934d8 {
+	.winButton__421ed {
 		top: 0;
 		height: var(--server-container);
 		width: var(--server-container);
 	}
 	/* Adjust the close button of the settings */
-	.toolsContainer_c25c6d {padding-top: calc(10px + var(--server-container))}
+	.toolsContainer__23e6b {padding-top: calc(10px + var(--server-container))}
 	/* Move the toolbar to the left side (adapt to HSL absence) */
-	.toolbar_fc4f04 {margin-right: var(--toolbar-margin)}
+	.toolbar__9293f {margin-right: var(--toolbar-margin)}
 	/* For HSL */
 		/* Reduce margin below servers */
-		.guilds_a4d4d9 [class*=listItem]:not([class*=listItemWrapper]) {
+		.guilds_c48ade [class*=listItem]:not([class*=listItemWrapper]) {
 			margin: var(--server-spacing, 8px) var(--server-margin, 0) !important;
 		}
 		/* Fix server folder background */
-		.expandedFolderBackground_bc7085 {left: var(--fix-folder) !important}
+		.expandedFolderBackground__48112 {left: var(--fix-folder) !important}
 		/* Fix servers that appear under window buttons */
-		.scroller_fea3ef.none_c49869.scrollerBase_c49869 {
+		.scroller_ef3116.none_d125d2.scrollerBase_d125d2 {
 			margin-bottom: calc(3 * calc(var(--server-size) + 15px));
 		}
 
 
 /* Enhance RadialStatus */
 	/* Use RS' avatar shape in message and server call */
-	.avatar_f9f2ca, .avatar_d80634 {border-radius: var(--rs-avatar-shape, 50%)}
+	.avatar_c19a55, .avatar__07f91 {border-radius: var(--rs-avatar-shape, 50%)}
 
 
 /* Others */
 	/* Center role name in server members list */
-	.membersGroup_cbd271 {padding-top: 12px}
+	.membersGroup_c8ffbb {padding-top: 12px}
 	/* Adjust to MinifiedMemberList */
-	.membersWrap_cbd271 .membersGroup_cbd271::after {top: 19px !important}
+	.membersWrap_c8ffbb .membersGroup_c8ffbb::after {top: 19px !important}
 	/* Reduce toolbar height */
-	.container_fc4f04, .header_fd6364, .searchBar_f0963d {height: 37px !important}
+	.container__9293f, .header_f37cb1, .searchBar__35e86 {height: 37px !important}
 	/* Fix server name */
-	.header_fd6364 {padding-top: 7px}
+	.header_f37cb1 {padding-top: 7px}
 	/* Reduce space around server categories */
-	.containerDefault_a08117 {padding-top: 10px}
+	.containerDefault__29444 {padding-top: 10px}
 	/* Fix space between server banner and the first category/channel */
-	.content_eed6a8 > div[style="height: 84px;"] {
+	.content__99f8c > div[style="height: 84px;"] {
 		height: 98px !important;
 	}
 	/* Reduce space used by the button to close settings */
-	.toolsContainer_c25c6d {margin-right: 15px !important}
+	.toolsContainer__23e6b {margin-right: 15px !important}
 	/* Fix HypeSquad video */
-	.video_c15a81.videoWrapper_b8e00f {
+	.video_b8f10d.videoWrapper__56ac8 {
 		padding: 0 !important;
 		width: 640px;
 		height: 360px;
 	}
 	/* Fix overlay page */
-	.notificationSettings_af804a {max-width: 35%}
+	.notificationSettings__4d38b {max-width: 35%}
 	/* Fixed width search bar */
-	.searchBar_a46bef {width: 240px}
+	.searchBar__97492 {width: 240px}
 	/* Remove unread mention appearing on server list */
-	.unreadMentionsIndicatorBottom_fea3ef {display: none}
+	.unreadMentionsIndicatorBottom_ef3116 {display: none}
 	/* Remove Discovery button */
-	.footer_d71945 {display: none}
+	.footer__214dc {display: none}
 	/* Server invite image displayed correctly */
-	.inviteSplash_ed5743 {width: 790px}
+	.inviteSplash__9b0f4 {width: 790px}
