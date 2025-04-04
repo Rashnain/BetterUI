@@ -10,10 +10,10 @@ Download the [theme file](https://github.com/Rashnain/BetterUI/raw/main/BetterUI
 ## Features
 
 * Uses the whole screen for things like parameters
-* Removes the top bar that contains the Discord logo and integrates the buttons next to the help button
-* Background images of server invites aren't cropped
-* Removes Nitro and Friends tabs*
-* Removes gift, GIF, sticker and emoji buttons from the message bar*
+* Removes the top bar
+* Removes Nitro and Store tabs
+* Removes Friends tab*
+* Removes gift, GIF, sticker, emoji and apps buttons from the message bar*
 * And a bunch of other little things
 
 \* configurable
@@ -21,4 +21,4 @@ Download the [theme file](https://github.com/Rashnain/BetterUI/raw/main/BetterUI
 ## Compatibility
 This theme includes complementary features for other themes :
 * [RadialStatus](https://github.com/DiscordStyles/RadialStatus) use the avatar shape parameter in avatar messages
-* [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList) adapt the server list to go along with the buttons of the window
+* [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList) reduce the height of the server list and server icons
