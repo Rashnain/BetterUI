@@ -115,11 +115,11 @@
 		max-width: var(--server-icon-size) !important;
 	}
 	/* Fix server folder background width */
-	.wrapper__48112.isExpanded__48112 .stack_dbd263 {
+	.folderGroup__48112.isExpanded__48112 .stack_dbd263 {
 		height: unset !important;
 	}
 	/* Fix server folder background positionning */
-	.expandedFolderBackground__48112 {
+	.folderGroupBackground__48112 {
 		left: 4px !important;
 		width: var(--server-icon-size) !important;
 	}
