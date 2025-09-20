@@ -80,14 +80,10 @@
 	.buttons__74017 > button {display: none}
 	/* Remove other buttons (configurable) */
 	.buttons__74017 {display: var(--bui-message-buttons, flex)}
-	/* Reduce space below the message sending box */
-	.channelTextArea_f75fb0.channelTextArea__74017, .wrapper__44df5 {margin: 0}
-	/* Add 10 px of padding around it */
-	.form_f75fb0 {padding: 10px}
 	/* Move pseudo of writing users */
-	.typing_b88801 {height: 10px}
+	.typing_b88801 {height: 30px}
 	/* Reduce space between the last message and the message sending box */
-	.scrollerSpacer__36d07 {height: 0 !important}
+	.scrollerSpacer__36d07 {height: 25px !important}
 	/* Reduce space around dates that separate messages */
 	.divider__5126c.hasContent__5126c.divider__908e2.hasContent__908e2 {margin: 10px}
 	/* Message editing */
