@@ -11,8 +11,8 @@
 
 
 /* List of private channels */
-	/* Remove Nitro and Store tabs */
-	.link__972a0[href="/store"], .link__972a0[href="/shop"] {display: none}
+	/* Remove Nitro, Store and Quests tabs */
+	.link__972a0[href="/store"], .link__972a0[href="/shop"], .link__972a0[href="/quest-home"] {display: none}
 	/* Remove Friends tab (configurable) */
 	.link__972a0[href="/channels/@me"] {
 		display: var(--bui-friends-tab, block);

@@ -11,7 +11,7 @@ Download the [theme file](https://github.com/Rashnain/BetterUI/raw/main/BetterUI
 
 * Uses the whole screen for things like parameters
 * Removes the top bar
-* Removes Nitro and Store tabs
+* Removes Nitro, Store and Quests tabs
 * Removes Friends tab*
 * Removes gift, GIF, sticker, emoji and apps buttons from the message bar*
 * And a bunch of other little things
