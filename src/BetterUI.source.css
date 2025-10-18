@@ -18,7 +18,7 @@
 		display: var(--bui-friends-tab, block);
 	}
 	/* Reduce space between search and DM */
-	.content__99f8c > div[style="height: 8px;"] {
+	.content_d125d2 > div[style="height: 8px;"] {
 		display: var(--bui-friends-tab);
 	}
 	.sectionDivider__35e86 {
@@ -40,7 +40,7 @@
 
 /* Allow pages to use full width */
 	/* Common rule */
-	.contentColumn__23e6b, .customScroller__23e6b > div, .customColumn__23e6b, .content_dbba93, .container_cdb2b0 {
+	.contentColumn__23e6b, .customScroller__23e6b > div, .customColumn__23e6b, .content_dbba93, .container__4b8d8 {
 		padding: 20px;
 		max-width: 95%;
 	}
@@ -60,7 +60,7 @@
 	.customScroller__23e6b .content__99f8c > div[aria-hidden="true"] {display: none}
 	.content__99f8c {margin: 0 !important}
 	/* Server bans */
-	.container_cdb2b0 {padding: 0}
+	.container__4b8d8 {padding: 0}
 	/* Server logs */
 	.content__5906b .customHeader__5906b {padding: 0}
 	.content-2a4AW9, .content__5906b {margin: 0 !important}
