@@ -21,7 +21,7 @@
 	.content_d125d2 > div[style="height: 8px;"] {
 		display: var(--bui-friends-tab);
 	}
-	.sectionDivider__35e86 {
+	.sectionDivider_e6b769 {
 		display: var(--bui-friends-tab);
 		margin: 5px !important;
 	}
@@ -125,11 +125,11 @@
 		max-width: var(--server-icon-size) !important;
 	}
 	/* Reduce server list height */
-	.content_c48ade {
+	.content__5e434 {
 		margin-top: var(--server-list-height) !important;
 	}
 	/* Reduce padding around DM button */
-	.wrapper_ef3116.guilds_c48ade .tree_ef3116 {
+	.wrapper_ef3116.guilds__5e434 .tree_ef3116 {
 		padding-top: 0px !important;
 	}
 	/* Remove empty space that appear next to the PM button */
@@ -152,7 +152,7 @@
 	/* Fix for MinifiedMemberList */
 	.membersWrap_c8ffbb .membersGroup_c8ffbb::after {top: 19px !important}
 	/* Reduce private message toolbar height */
-	.container__9293f, .searchBar__35e86 {height: 40px !important}
+	.container__9293f, .searchBar_e6b769 {height: 40px !important}
 	.theme-dark.images-dark.container__9293f.themed__9293f {
 		padding: 5px;
 		min-height: 40px;
@@ -191,7 +191,7 @@
 	/* Remove the top bar's title */
 	.title_c38106 {display: none}
 	/* Don't display the top bar */
-	.visual-refresh .base_c48ade {
+	.visual-refresh .base__5e434 {
 		grid-template-rows: [top] 0px [titleBarEnd] min-content [noticeEnd] 1fr [end];
 	}
 	/* Move the two buttons from the top bar to the toolbar */
