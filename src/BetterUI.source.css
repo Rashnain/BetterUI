@@ -6,167 +6,156 @@
 
 	/* Set the height of the server list (for HSL) and the size of a server icon */
 	--server-list-height: 45px;
-	--server-icon-size: 37px;
+	--server-icon-size: 40px;
 }
 
 
 /* List of private channels */
 	/* Remove Nitro, Store and Quests tabs */
-	.link__972a0[href="/store"], .link__972a0[href="/shop"], .link__972a0[href="/quest-home"] {display: none}
+	._972a0d22c8afa7f0-link[href="/store"], ._972a0d22c8afa7f0-link[href="/shop"], ._972a0d22c8afa7f0-link[href="/quest-home"] {display: none}
 	/* Remove Friends tab (configurable) */
-	.link__972a0[href="/channels/@me"] {
+	._972a0d22c8afa7f0-link[href="/channels/@me"] {
 		display: var(--bui-friends-tab, block);
 	}
 	/* Reduce space between search and DM */
-	.content_d125d2 > div[style="height: 8px;"] {
+	.d125d22cdfd32cfe-content > div[style="height: 8px;"] {
 		display: var(--bui-friends-tab);
 	}
-	.sectionDivider_e6b769 {
+	.e6b7699ce8339e1c-sectionDivider {
 		display: var(--bui-friends-tab);
 		margin: 5px !important;
 	}
 	/* Don't change text colour when hovering over "DIRECT MESSAGES" */
-	.privateChannelsHeaderContainer__99e7c:hover {
+	._99e7cad8d4c55236-privateChannelsHeaderContainer:hover {
 		color: rgb(142, 146, 151);
 	}
 
 
 /* Settings navigation bar */
 	/* Remove left margin */
-	.sidebarRegion__23e6b {flex: 0}
+	._23e6b439306f125a-sidebarRegion {flex: 0}
 	/* Compact navigation bar */
-	.sidebar__23e6b {padding: 10px 5px 5px 5px}
+	._23e6b439306f125a-sidebar {padding: 10px 5px 5px 5px}
 
 
 /* Allow pages to use full width */
 	/* Common rule */
-	.contentColumn__23e6b, .customScroller__23e6b > div, .customColumn__23e6b, .content_dbba93, .container__4b8d8 {
+	._23e6b439306f125a-contentColumn, ._23e6b439306f125a-customScroller > div, ._23e6b439306f125a-customColumn, .dbba9320d9989b05-content, ._4b8d892e5bcb9bd7-container {
 		padding: 20px;
 		max-width: 95%;
 	}
 	/* Family centre */
-	.container__8e680 > div {
+	._8e680ffe35110238-container > div {
 		max-width: 95%;
 	}
 	/* Server profile */
-	.leftColumn_dbba93 {
+	.dbba9320d9989b05-leftColumn {
 		max-width: 95% !important;
 	}
 	/* Server members */
-	.customColumn__23e6b {padding: 0}
-	.settingsHorizontalScroller_fa2640.auto_d125d2.scrollerBase_d125d2 {margin: 0 !important}
-	.customColumn__23e6b.contentColumnDefault__23e6b.override_fa2640.settingsColumn_fa2640.settingsContent_fa2640 {max-width: 95% !important}
+	._23e6b439306f125a-customColumn {padding: 0}
+	.fa2640ef99d88f6e-settingsHorizontalScroller.d125d22cdfd32cfe-auto.d125d22cdfd32cfe-scrollerBase {margin: 0 !important}
+	._23e6b439306f125a-customColumn._23e6b439306f125a-contentColumnDefault.fa2640ef99d88f6e-override.fa2640ef99d88f6e-settingsColumn.fa2640ef99d88f6e-settingsContent {max-width: 95% !important}
 	/* Server roles and invitations */
-	.customScroller__23e6b .content__99f8c > div[aria-hidden="true"] {display: none}
-	.content__99f8c {margin: 0 !important}
+	._23e6b439306f125a-customScroller ._99f8cc7ad4790ce9-content > div[aria-hidden="true"] {display: none}
+	._99f8cc7ad4790ce9-content {margin: 0 !important}
 	/* Server bans */
-	.container__4b8d8 {padding: 0}
+	._4b8d892e5bcb9bd7-container {padding: 0}
 	/* Server logs */
-	.content__5906b .customHeader__5906b {padding: 0}
-	.content-2a4AW9, .content__5906b {margin: 0 !important}
+	._5906b5e639ffa713-content ._5906b5e639ffa713-customHeader {padding: 0}
+	.content-2a4AW9, ._5906b5e639ffa713-content {margin: 0 !important}
 	/* Additional corrections for roles page */
 		/* Remove space above the back button */
-		.titleContainer_e29cd7 {padding-top: 0}
+		.e29cd7b93c4f1266-titleContainer {padding-top: 0}
 		/* Allow the right zone to take more space */
-		.contentWidth_c6bf1b {max-width: 95%}
+		.c6bf1b7af480dfda-contentWidth {max-width: 95%}
 		/* Remove space above right zone */
-		.header_c6bf1b {padding-top: 20px}
+		.c6bf1b7af480dfda-header {padding-top: 20px}
 		/* To render correctly, adjust the right zone */
-		.contentContainer__91dc3, .headerContainer__9a73f {padding-left: 20px !important}
+		._91dc3971e82843c1-contentContainer, ._9a73f1a84c858f76-headerContainer {padding-left: 20px !important}
 
 
 /* Messages */
 	/* Remove gift button */
-	.buttons__74017 > button {display: none}
+	._740174f3d6a2c8fe-buttons > button {display: none}
 	/* Remove other buttons (configurable) */
-	.buttons__74017 {display: var(--bui-message-buttons, flex)}
+	._740174f3d6a2c8fe-buttons {display: var(--bui-message-buttons, flex)}
 	/* Move pseudo of writing users */
-	.typing_b88801 {height: 30px}
+	.b8880176888cc928-typing {height: 30px}
 	/* Reduce space between the last message and the message sending box */
-	.scrollerSpacer__36d07 {height: 25px !important}
+	._36d072eab2b2e737-scrollerSpacer {height: 25px !important}
 	/* Reduce space around dates that separate messages */
-	.divider__5126c.hasContent__5126c.divider__908e2.hasContent__908e2 {margin: 10px}
+	._5126c0cd07f243a0-divider._5126c0cd07f243a0-hasContent._908e20001ad67812-divider._908e20001ad67812-hasContent {margin: 10px}
 	/* Message editing */
 		/* Remove the help below the edit box */
-		.operations_bab751 {display: none}
+		.bab7519355c8eed6-operations {display: none}
 		/* Remove space above the edit box */
-		.channelTextArea__5126c.channelTextArea__74017 {
+		._5126c0cd07f243a0-channelTextArea._740174f3d6a2c8fe-channelTextArea {
 			margin: 0;
 			border: 0;
 		}
 		/* Remove space around message */
-		.markup__75297.slateTextArea_ec4baf.fontSize20Padding__74017.textAreaWithoutAttachmentButton__74017 {padding: 0}
-		.channelTextArea__5126c.channelTextArea__74017 .scrollableContainer__74017.themedBackground__74017 .inner__74017 {padding: 0 !important}
+		._752971923a1e6683-markup.ec4baf0360ff3578-slateTextArea.fontSize20Padding__74017.textAreaWithoutAttachmentButton__74017 {padding: 0}
+		._5126c0cd07f243a0-channelTextArea._740174f3d6a2c8fe-channelTextArea ._740174f3d6a2c8fe-scrollableContainer._740174f3d6a2c8fe-themedBackground ._740174f3d6a2c8fe-inner {padding: 0 !important}
 
 
 /* Enhance Horizontal Server List */
 	/* Reduce server icon size */
-	.wrapper_cc5dd2 svg {
+	.cc5dd25190031396-wrapper svg {
 		max-height: var(--server-icon-size) !important;
 		max-width: var(--server-icon-size) !important;
+		left: 2px;
 	}
 	/* Reduce space around server icons */
-	.listItem__650eb {
+	._650eb104245d257b-listItem {
 		height: 30px;
 		max-width: var(--server-icon-size) !important;
 	}
 	/* Fix server folder background width */
-	.folderGroup__48112.isExpanded__48112 .stack_dbd263 {
+	._48112cbe77dc5022-folderGroup._48112cbe77dc5022-isExpanded .dbd2630aec71879b-stack {
 		height: unset !important;
 	}
 	/* Fix server folder background positionning */
-	.folderGroupBackground__48112 {
-		left: 4px !important;
+	._48112cbe77dc5022-folderGroupBackground {
+		left: 3px !important;
 		width: var(--server-icon-size) !important;
 	}
-	/* Fix server folder icon positionning */
-	.wrapper_cc5dd2 {
-		max-height: var(--server-icon-size) !important;
-		max-width: var(--server-icon-size) !important;
-	}
 	/* Reduce server list height */
-	.content__5e434 {
+	._5e434347c823b592-content {
 		margin-top: var(--server-list-height) !important;
 	}
 	/* Reduce padding around DM button */
-	.wrapper_ef3116.guilds__5e434 .tree_ef3116 {
+	.ef3116c2da186559-wrapper._5e434347c823b592-guilds .ef3116c2da186559-tree {
 		padding-top: 0px !important;
-	}
-	/* Remove empty space that appear next to the PM button */
-	.tutorialContainer__1f388 + .listItem__650eb {
-		display: none !important;
-	}
-	div[style="opacity: 1; height: 40px; transform: scale(1);"] + .listItem__650eb {
-		display: none !important;
 	}
 
 
 /* Enhance RadialStatus */
 	/* Use RS' avatar shape in message and server call */
-	.avatar_c19a55, .avatar__07f91 {border-radius: var(--rs-avatar-shape, 50%)}
+	.c19a557985eb7793-avatar, ._07f9193042954787-avatar {border-radius: var(--rs-avatar-shape, 50%)}
 
 
 /* Others */
 	/* Center role name in server members list */
-	.membersGroup_c8ffbb {padding: 12px !important}
+	.c8ffbb79449f399c-membersGroup {padding: 12px !important}
 	/* Fix for MinifiedMemberList */
-	.membersWrap_c8ffbb .membersGroup_c8ffbb::after {top: 19px !important}
+	.c8ffbb79449f399c-membersWrap .c8ffbb79449f399c-membersGroup::after {top: 19px !important}
 	/* Reduce private message toolbar height */
-	.container__9293f, .searchBar_e6b769 {height: 40px !important}
-	.theme-dark.images-dark.container__9293f.themed__9293f {
+	._9293f6b2fc12398a-container, .e6b7699ce8339e1c-searchBar {height: 40px !important}
+	.theme-dark.images-dark._9293f6b2fc12398a-container._9293f6b2fc12398a-themed {
 		padding: 5px;
 		min-height: 40px;
 	}
 	/* Reduce private call toolbar height */
-	.title_f75fb0.container__9293f.transparent__9293f {
+	.f75fb00fb7356cbe-title._9293f6b2fc12398a-container._9293f6b2fc12398a-transparent {
 		min-height: 40px;
 	}
 	/* Fix space between server name and first category/channel */
-	.content__99f8c > div[style="height: 0px;"] {
+	._99f8cc7ad4790ce9-content > div[style="height: 0px;"] {
 		height: 10px !important;
 	}
 	/* Fix space under server banner */
-	.content__99f8c > div[style="height: 84px;"] {
+	._99f8cc7ad4790ce9-content > div[style="height: 84px;"] {
 		height: 90px !important;
 	}
 	/* Fix HypeSquad video */
@@ -178,24 +167,24 @@
 	/* Fix overlay page */
 	.notificationSettings__4d38b {max-width: 35%}
 	/* Remove unread mention appearing on server list */
-	.unreadMentionsBar_ef3116 {display: none}
+	.ef3116c2da186559-unreadMentionsBar {display: none}
 	/* Remove Discovery button */
-	.tutorialContainer__650eb + .listItem__650eb {display: none}
+	._650eb104245d257b-tutorialContainer + ._650eb104245d257b-listItem {display: none}
 	/* Server invite image displayed correctly */
-	.inviteSplash__9b0f4 {width: 790px}
+	._9b0f44488203477c-inviteSplash {width: 790px}
 	/* Reduce the server toolbar padding */
-	.title_f75fb0.container__9293f.themed__9293f {
+	.f75fb00fb7356cbe-title._9293f6b2fc12398a-container._9293f6b2fc12398a-themed {
 		padding: 5px;
 		min-height: 40px;
 	}
 	/* Remove the top bar's title */
-	.title_c38106 {display: none}
+	.c38106a3f0c3ca76-title {display: none}
 	/* Don't display the top bar */
-	.visual-refresh .base__5e434 {
+	.visual-refresh ._5e434347c823b592-base {
 		grid-template-rows: [top] 0px [titleBarEnd] min-content [noticeEnd] 1fr [end];
 	}
 	/* Move the two buttons from the top bar to the toolbar */
-	.bar_c38106 {
+	.c38106a3f0c3ca76-bar {
 		position: absolute;
 		right: 18px;
 		top: var(--server-list-height);
@@ -205,6 +194,6 @@
 		z-index: 101;
 	}
 	/* Move the toolbar to the left */
-	.toolbar__9293f {margin-right: 100px}
+	._9293f6b2fc12398a-toolbar {margin-right: 100px}
 	/* Add top margin to the private massages button */
-	.tutorialContainer__1f388 .listItem__650eb {margin-top: 6px}
+	._1f388bcaa446c0c8-tutorialContainer ._650eb104245d257b-listItem {margin-top: 6px}
